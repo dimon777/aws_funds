@@ -1,0 +1,15 @@
+#!/bin/bash
+TF_ARCHIVE=../.bin/archive_files
+API=system_pi
+PACKAGE=$TF_ARCHIVE/$API.zip
+
+function bundle_lambda() {
+  echo "Creating lambda bundle"
+}
+
+mkdir -p $TF_ARCHIVE
+rm -rf $PACKAGE 2>/dev/null
+chmod -R 755 *.py
+zip $PACKAGE ${API}.py common.py
+ls -l $PACKAGE
+

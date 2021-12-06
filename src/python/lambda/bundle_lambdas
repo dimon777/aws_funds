@@ -1,0 +1,15 @@
+#!/bin/bash
+
+dos2unix */bundle
+
+while read dir
+do
+  echo $dir
+  if [ -f $dir/bundle ]
+  then
+    echo "Running bundle from: $dir"
+    cd $dir
+    ./bundle
+    cd ..
+  fi
+done <<< "$(ls -d */)"

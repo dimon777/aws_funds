@@ -1,0 +1,6 @@
+requests
+mysql-connector
+datetime_truncate
+numpy
+pandas
+boto3

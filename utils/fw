@@ -1,0 +1,3 @@
+# tunnel to access RDS from client machine
+ssh -i ~/keys/bastion.pem -L 3306:rds-cluster-dev.cluster-czor5sertqwc.us-west-2.rds.amazonaws.com:3306 \
+ubuntu@ec2-34-217-74-26.us-west-2.compute.amazonaws.com

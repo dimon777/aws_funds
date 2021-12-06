@@ -1,0 +1,1 @@
+ssh -i "~/keys/bastion.pem" ubuntu@ec2-34-217-74-26.us-west-2.compute.amazonaws.com

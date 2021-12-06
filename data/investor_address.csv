@@ -1,0 +1,11 @@
+investor_id,start_dt,address,state,country
+1, '2020-01-01', 'address1', 'CT', 'US'
+2, '2020-01-02', 'address2', 'NY', 'US'
+3, '2020-01-03', 'address3', 'NJ', 'US'
+4, '2020-01-04', 'address4', 'MA', 'US'
+5, '2020-01-05', 'address5',, 'JP'
+6, '2020-01-06', 'address6', 'FL', 'US'
+7, '2020-01-07', 'address7',, 'ES'
+8, '2020-01-08', 'address8',, 'RU'
+9, '2020-01-09', 'address9',, 'JP'
+10, '2020-01-10', 'address10',, 'GB'
